@@ -233,7 +233,7 @@ object DaggerHilt {
 }
 
 object DaggerHiltAndroid {
-    private const val version = "2.41"
+    private const val version = "2.42"
 
     const val android = "com.google.dagger:hilt-android:$version"
     const val compiler = "com.google.dagger:hilt-compiler:$version"
