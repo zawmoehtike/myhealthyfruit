@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.sqldelight:android-driver:1.5.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5132309c60f5e60ed6474ca3afc37723/transformed/android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3cebc568100d6c6f868812a7f7e6364e/transformed/android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2a34aa68010f1602d6a7c66b562f389d/transformed/android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63cf7b9e74748030a022f3043478b921/transformed/android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/743665cfc5fdd2cbfd45e31694b79dad/transformed/android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7637dc631851e4c22bbc70a3a34341bb/transformed/jetified-android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7c5084b253223d32fa1a4f85e44859e4/transformed/jetified-android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9fc71e754ed2515f1c2221e5806a6183/transformed/jetified-android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f64ef04d4e52775e87185e6c5be7710a/transformed/jetified-android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1b58288ffa7266aa27ac4826a804783b/transformed/jetified-android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/96de7efd11bce7151d838520c74f9bd6/transformed/jetified-android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3df273c5b4190bfd211c34a6edeeb489/transformed/jetified-android-driver-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/566c2008fe49ad288046e66d9235bd95/transformed/jetified-android-driver-1.5.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/566c2008fe49ad288046e66d9235bd95/transformed/jetified-android-driver-1.5.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/566c2008fe49ad288046e66d9235bd95/transformed/jetified-android-driver-1.5.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.sqldelight/android-driver/1.5.3/4ca6c8e164d4273511baf3d2c826a9e60d9167f4/android-driver-1.5.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.sqldelight/android-driver/1.5.3/a176d08e5c5dd87c7eb684ab6e4a06774d16ddaf/android-driver-1.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

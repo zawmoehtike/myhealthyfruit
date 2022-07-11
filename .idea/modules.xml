@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myhealthyfruits.iml" filepath="$PROJECT_DIR$/.idea/modules/myhealthyfruits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myhealthyfruits.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myhealthyfruits.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myhealthyfruits.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myhealthyfruits.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myhealthyfruits.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myhealthyfruits.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myhealthyfruits.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myhealthyfruits.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appbase/myhealthyfruits.appbase.iml" filepath="$PROJECT_DIR$/.idea/modules/appbase/myhealthyfruits.appbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appbase/myhealthyfruits.appbase.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/appbase/myhealthyfruits.appbase.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appbase/myhealthyfruits.appbase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/appbase/myhealthyfruits.appbase.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appbase/myhealthyfruits.appbase.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/appbase/myhealthyfruits.appbase.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myhealthyfruits.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/myhealthyfruits.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myhealthyfruits.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/myhealthyfruits.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myhealthyfruits.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/myhealthyfruits.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cache/myhealthyfruits.cache.iml" filepath="$PROJECT_DIR$/.idea/modules/cache/myhealthyfruits.cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cache/myhealthyfruits.cache.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cache/myhealthyfruits.cache.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cache/myhealthyfruits.cache.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cache/myhealthyfruits.cache.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cache/myhealthyfruits.cache.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cache/myhealthyfruits.cache.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/myhealthyfruits.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/myhealthyfruits.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/myhealthyfruits.data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data/myhealthyfruits.data.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/myhealthyfruits.data.test.iml" filepath="$PROJECT_DIR$/.idea/modules/data/myhealthyfruits.data.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/myhealthyfruits.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/myhealthyfruits.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/myhealthyfruits.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/myhealthyfruits.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/myhealthyfruits.domain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/myhealthyfruits.domain.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/network/myhealthyfruits.network.iml" filepath="$PROJECT_DIR$/.idea/modules/network/myhealthyfruits.network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/network/myhealthyfruits.network.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/network/myhealthyfruits.network.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/network/myhealthyfruits.network.main.iml" filepath="$PROJECT_DIR$/.idea/modules/network/myhealthyfruits.network.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/network/myhealthyfruits.network.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/network/myhealthyfruits.network.unitTest.iml" />
+    </modules>
+  </component>
+</project>

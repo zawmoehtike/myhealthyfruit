@@ -1,0 +1,28 @@
+
+CREATE TABLE Fruit(
+  id TEXT PRIMARY KEY NOT NULL,
+  title TEXT NOT NULL,
+  description TEXT,
+  vitamins TEXT,
+  imageBitmap TEXT
+);
+
+selectAll:
+SELECT * FROM Fruit ORDER BY title;
+
+selectById:
+SELECT * FROM Fruit WHERE id = :id;
+
+insertOrReplace:
+INSERT OR REPLACE INTO Fruit(id, title, description, vitamins, imageBitmap)
+VALUES(?,?,?,?,?);
+
+insert:
+INSERT INTO Fruit(id, title, description, vitamins, imageBitmap)
+VALUES(?,?,?,?,?);
+
+deleteById:
+DELETE FROM Fruit WHERE id = :id;
+
+deleteAll:
+DELETE FROM Fruit;

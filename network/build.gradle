@@ -1,0 +1,67 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+}
+
+android {
+    compileSdk BuildConfig.compileSdk
+
+    defaultConfig {
+        minSdk BuildConfig.minSdk
+        targetSdk BuildConfig.targetSdk
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            buildConfigField "String", "BASE_URL", "\"http://api.dev/\""
+        }
+        release {
+            minifyEnabled false
+            debuggable false
+            buildConfigField "String", "BASE_URL", "\"https://api.com/\""
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation project(':data')
+
+    //JavaxInject
+    implementation CommonLibs.javaxInject
+
+    //Hilt
+    implementation DaggerHiltAndroid.android
+    kapt DaggerHiltAndroid.compiler
+
+    implementation AndroidXCore.core
+    implementation AndroidXCore.core_ktx
+    implementation Kotlin.stdblib_jdk
+
+    //OkHttp
+    api OkHttp.client
+    implementation OkHttp.logger
+    //Retrofit
+    api Retrofit.core
+    implementation Retrofit.moshi_converter
+    //Moshi
+    implementation Moshi.core
+    kapt Moshi.code_gen
+}

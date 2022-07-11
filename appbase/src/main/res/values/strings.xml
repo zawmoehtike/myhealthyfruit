@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">appbase</string>
+
+  <!--  region Error Message-->
+
+  <string name="error_generic">Something went wrong! Please retry later.</string>
+  <string name="error_no_internet">No Internet Connection! Please retry later.</string>
+  <string name="error_socket_timeout">Can\'t connect to any internet. Please retry later.</string>
+  <string name="error_server_500">Server error! Please retry later.</string>
+  <string name="error_server_404">Can\'t find any server.</string>
+  <string name="error_http">Can\'t connect to server. Please retry later.</string>
+</resources>

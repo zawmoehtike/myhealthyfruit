@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="myhealthyfruits.app" target="11" />
+      <module name="myhealthyfruits.appbase" target="11" />
+      <module name="myhealthyfruits.buildSrc" target="11" />
+      <module name="myhealthyfruits.buildSrc.main" target="11" />
+      <module name="myhealthyfruits.buildSrc.test" target="11" />
+      <module name="myhealthyfruits.cache" target="11" />
+      <module name="myhealthyfruits.network" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
