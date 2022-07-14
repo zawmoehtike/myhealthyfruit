@@ -7,7 +7,8 @@ import retrofit2.http.Query
 
 interface MyHealthyFruitsService {
 
-    @GET("v1/getFruitList")
+    // http://myjson.dit.upm.es/api/bins/475f
+    @GET("475f")
     suspend fun getFruitList(
         @Query("page") page: String
     ): Response<FruitResponse>

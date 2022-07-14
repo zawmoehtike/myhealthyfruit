@@ -19,12 +19,12 @@ android {
     buildTypes {
         debug {
             debuggable true
-            buildConfigField "String", "BASE_URL", "\"http://api.dev/\""
+            buildConfigField "String", "BASE_URL", "\"https://myjson.dit.upm.es/api/bins/\""
         }
         release {
             minifyEnabled false
             debuggable false
-            buildConfigField "String", "BASE_URL", "\"https://api.com/\""
+            buildConfigField "String", "BASE_URL", "\"https://myjson.dit.upm.es/api/bins/\""
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
