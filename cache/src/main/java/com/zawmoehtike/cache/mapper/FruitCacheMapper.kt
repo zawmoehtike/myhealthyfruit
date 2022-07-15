@@ -10,10 +10,10 @@ class FruitCacheMapper @Inject constructor() : UnidirectionalMap<Fruit, FruitEnt
     override fun map(item: Fruit): FruitEntity {
         return FruitEntity(
             id = item.id,
-            title = item.title,
-            description = item.description?:"",
-            vitamins = item.vitamins?:"",
-            photoBitmap = item.imageBitmap?:""
+            name = item.fruit_name,
+            genus = item.genus?:"",
+            family = item.family?:"",
+            order = item.fruit_order?:""
         )
     }
 }

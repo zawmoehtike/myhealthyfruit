@@ -14,6 +14,12 @@ class FruitRepositoryRealImpl @Inject constructor(
     private val fruitEntityMapper: FruitEntityMapper
 ) : FruitRepository {
 
+    override suspend fun getCachedFruits(currentPage: String): List<FruitModel> {
+        return fruitCacheDataSource.getFruitList(currentPage).map {
+            fruitEntityMapper.map(it)
+        }
+    }
+
     override suspend fun getFruits(currentPage: String): List<FruitModel> {
         return fruitNetworkDataSource.getFruitList(currentPage)
             .apply {

@@ -14,7 +14,12 @@ class GetFruitList @Inject constructor(
     )
 
     override suspend fun provide(params: Params): List<FruitModel> {
-        return fruitRepository.getFruits(params.currentPage.toString())
+        val cachedFruits = fruitRepository.getCachedFruits(params.currentPage.toString())
+        if(cachedFruits.size == 0) {
+            return fruitRepository.getFruits(params.currentPage.toString())
+        } else {
+            return cachedFruits
+        }
     }
 
 }

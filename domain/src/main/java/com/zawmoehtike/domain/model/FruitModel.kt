@@ -2,8 +2,8 @@ package com.zawmoehtike.domain.model
 
 data class FruitModel(
     val id: String,
-    val title: String,
-    val description: String,
-    val vitamins: String,
-    val photoBitmap: String
+    val name: String,
+    val genus: String,
+    val family: String,
+    val order: String
 )

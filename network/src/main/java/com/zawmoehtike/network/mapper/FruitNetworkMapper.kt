@@ -10,10 +10,10 @@ class FruitNetworkMapper @Inject constructor(): UnidirectionalMap<Fruit, FruitEn
     override fun map(item: Fruit): FruitEntity {
         return FruitEntity(
             id = item.id,
-            title = item.title,
-            description = item.description,
-            vitamins = item.vitamins?:"",
-            photoBitmap = item.photoBitmap?:""
+            name = item.name,
+            genus = item.genus,
+            family = item.family,
+            order = item.order
         )
     }
 }

@@ -1,24 +1,24 @@
 
 CREATE TABLE Fruit(
   id TEXT PRIMARY KEY NOT NULL,
-  title TEXT NOT NULL,
-  description TEXT,
-  vitamins TEXT,
-  imageBitmap TEXT
+  fruit_name TEXT NOT NULL,
+  genus TEXT,
+  family TEXT,
+  fruit_order TEXT
 );
 
 selectAll:
-SELECT * FROM Fruit ORDER BY title;
+SELECT * FROM Fruit ORDER BY fruit_name;
 
 selectById:
 SELECT * FROM Fruit WHERE id = :id;
 
 insertOrReplace:
-INSERT OR REPLACE INTO Fruit(id, title, description, vitamins, imageBitmap)
+INSERT OR REPLACE INTO Fruit(id, fruit_name, genus, family, fruit_order)
 VALUES(?,?,?,?,?);
 
 insert:
-INSERT INTO Fruit(id, title, description, vitamins, imageBitmap)
+INSERT INTO Fruit(id, fruit_name, genus, family, fruit_order)
 VALUES(?,?,?,?,?);
 
 deleteById:

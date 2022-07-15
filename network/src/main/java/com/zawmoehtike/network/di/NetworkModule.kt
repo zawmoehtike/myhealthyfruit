@@ -9,8 +9,10 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import okhttp3.OkHttpClient
+import okhttp3.Protocol
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
+import java.util.*
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
@@ -23,6 +25,7 @@ object NetworkModule {
   fun okHttpClient(): OkHttpClient {
     return OkHttpClient
       .Builder()
+      .protocols(Collections.singletonList(Protocol.HTTP_1_1))
       .connectTimeout(180, TimeUnit.SECONDS)
       .writeTimeout(180, TimeUnit.SECONDS)
       .readTimeout(100, TimeUnit.SECONDS)

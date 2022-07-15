@@ -23,10 +23,10 @@ class FruitCacheDataSourceRealImpl @Inject constructor(
             fruitList.forEach {
                 db.fruitQueries.insertOrReplace(
                     id = it.id,
-                    title = it.title,
-                    description = it.description,
-                    vitamins = it.vitamins,
-                    imageBitmap = it.photoBitmap
+                    fruit_name = it.name,
+                    genus = it.genus,
+                    family = it.family,
+                    fruit_order = it.order
                 )
             }
         }

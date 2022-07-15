@@ -19,12 +19,14 @@ android {
     buildTypes {
         debug {
             debuggable true
-            buildConfigField "String", "BASE_URL", "\"https://myjson.dit.upm.es/api/bins/\""
+            //buildConfigField "String", "BASE_URL", "\"https://myjson.dit.upm.es/api/bins/\""
+            buildConfigField "String", "BASE_URL", "\"https://www.fruityvice.com/api/\""
         }
         release {
             minifyEnabled false
             debuggable false
-            buildConfigField "String", "BASE_URL", "\"https://myjson.dit.upm.es/api/bins/\""
+            //buildConfigField "String", "BASE_URL", "\"https://myjson.dit.upm.es/api/bins/\""
+            buildConfigField "String", "BASE_URL", "\"https://www.fruityvice.com/api/\""
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

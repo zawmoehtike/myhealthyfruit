@@ -15,10 +15,10 @@ class FruitNetworkDataSourceRealImpl @Inject constructor(
     override suspend fun getFruitList(currentPage: String): List<FruitEntity> {
         val res = myHealthyFruitsService.getFruitList(currentPage)
             .getBodyOrThrowNetworkException()
-        return if (res.data.isNullOrEmpty()) {
+        return if (res.isNullOrEmpty()) {
             emptyList()
         } else {
-            res.data.map {
+            res.map {
                 fruitNetworkMapper.map(it)
             }
         }
@@ -27,10 +27,10 @@ class FruitNetworkDataSourceRealImpl @Inject constructor(
     override suspend fun getFruitDetail(id: String): FruitEntity? {
         val res = myHealthyFruitsService.getFruitList(id)
             .getBodyOrThrowNetworkException()
-        return if (res.data.isNullOrEmpty()) {
+        return if (res.isNullOrEmpty()) {
             null
         } else {
-            fruitNetworkMapper.map(res.data.first())
+            fruitNetworkMapper.map(res.first())
         }
     }
 }

@@ -29,14 +29,14 @@ class HomeViewModel @Inject constructor(
                 val result = getFruitList.execute(GetFruitList.Params(1))
                 val viewItemList =
                     result
-                        .sortedByDescending { it.title }
+                        .sortedByDescending { it.name }
                         .map {
                             FruitViewItem(
                                 id = it.id,
-                                title = it.title,
-                                description = it.description,
-                                vitamins = it.vitamins,
-                                photoBitmap = it.photoBitmap
+                                title = it.name,
+                                description = it.genus,
+                                vitamins = it.family,
+                                photoBitmap = it.order
                             )
                         }
 
