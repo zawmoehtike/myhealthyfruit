@@ -4,6 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.zawmoehtike.appbase.core.mvp.BaseViewModel
 import com.zawmoehtike.appbase.helper.AsyncViewResource
+import com.zawmoehtike.domain.model.FruitModel
 import com.zawmoehtike.domain.usecase.fruit.GetFruitDetail
 import com.zawmoehtike.domain.usecase.fruit.GetFruitList
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -16,7 +17,7 @@ class HomeViewModel @Inject constructor(
     private val getFruitDetail: GetFruitDetail
 ): BaseViewModel<HomeView>() {
 
-    private val fruitListLiveData = MutableLiveData<AsyncViewResource<List<FruitViewItem>>>()
+    private val fruitListLiveData = MutableLiveData<AsyncViewResource<List<FruitModel>>>()
 
     override fun attachView(viewable: HomeView) {
         super.attachView(viewable)
@@ -31,12 +32,12 @@ class HomeViewModel @Inject constructor(
                     result
                         .sortedByDescending { it.name }
                         .map {
-                            FruitViewItem(
+                            FruitModel(
                                 id = it.id,
-                                title = it.name,
-                                description = it.genus,
-                                vitamins = it.family,
-                                photoBitmap = it.order
+                                name = it.name,
+                                genus = it.genus,
+                                family = it.family,
+                                order = it.order
                             )
                         }
 

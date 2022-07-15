@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_fruit_detail.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/view_holder_fruit.xml" value="0.24635416666666668" />
         <entry key="app/src/main/res/xml/network_security_config.xml" value="0.24635416666666668" />
         <entry key="appbase/src/main/res/layout/spinner_row.xml" value="0.24739583333333334" />
       </map>

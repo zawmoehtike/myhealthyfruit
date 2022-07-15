@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.dagger:hilt-android:2.42@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5ae462b8cf105fd5db9c5d7c0e9acb12/transformed/jetified-hilt-android-2.42/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5ae462b8cf105fd5db9c5d7c0e9acb12/transformed/jetified-hilt-android-2.42/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5ae462b8cf105fd5db9c5d7c0e9acb12/transformed/jetified-hilt-android-2.42/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9aa0adecbdbd65a62de2ad4eab3a6c09/transformed/jetified-hilt-android-2.42/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9aa0adecbdbd65a62de2ad4eab3a6c09/transformed/jetified-hilt-android-2.42/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9aa0adecbdbd65a62de2ad4eab3a6c09/transformed/jetified-hilt-android-2.42/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/hilt-android/2.42/37255e9b57b1df994229478aca422c94e2199faa/hilt-android-2.42-javadoc.jar!/" />
